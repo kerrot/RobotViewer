@@ -270,6 +270,61 @@ ModelImporter:
     100524: polySurface322
     100526: pPipe1
     100528: pPipe2
+    100530: arm_frame_R48
+    100532: arm_frame_R49
+    100534: arm_frame_R50
+    100536: arm_frame_R51
+    100538: arm_frame_R52
+    100540: arm_frame_R53
+    100542: arm_frame_R54
+    100544: arm_frame_R55
+    100546: arm_gun_L1
+    100548: arm_gunA_L1
+    100550: back
+    100552: back_bottom
+    100554: back_left
+    100556: beamsaber_L1
+    100558: bottom
+    100560: group16
+    100562: left
+    100564: leg_frame_R5
+    100566: modeling_9:modeling_9:back_frame_R1
+    100568: modeling_9:modeling_9:pCube112
+    100570: pCube175
+    100572: pCube176
+    100574: pCube177
+    100576: pCube178
+    100578: pCube179
+    100580: pCube180
+    100582: pCube181
+    100584: pCube182
+    100586: pCube183
+    100588: pCube184
+    100590: pCube185
+    100592: pCube186
+    100594: pCube187
+    100596: pCube188
+    100598: pCube189
+    100600: pCube190
+    100602: pCube191
+    100604: pCube192
+    100606: pCube193
+    100608: pCube194
+    100610: pCube195
+    100612: pCube196
+    100614: pCube197
+    100616: pCube198
+    100618: pCube199
+    100620: pCube200
+    100622: pCube201
+    100624: pCube202
+    100626: pCube203
+    100628: polySurface330
+    100630: polySurface331
+    100632: polySurface332
+    100634: polySurface333
+    100636: polySurface334
+    100638: waist_frame_R1
     400000: //RootNode
     400002: arm
     400004: arm 1
@@ -535,6 +590,66 @@ ModelImporter:
     400524: polySurface322
     400526: pPipe1
     400528: pPipe2
+    400530: arm_frame_R48
+    400532: arm_frame_R49
+    400534: arm_frame_R50
+    400536: arm_frame_R51
+    400538: arm_frame_R52
+    400540: arm_frame_R53
+    400542: arm_frame_R54
+    400544: arm_frame_R55
+    400546: arm_gun_L1
+    400548: arm_gunA_L1
+    400550: back
+    400552: back_bottom
+    400554: back_left
+    400556: beamsaber_L1
+    400558: bottom
+    400560: group16
+    400562: left
+    400564: leg_frame_R5
+    400566: modeling_9:modeling_9:back_frame_R1
+    400568: modeling_9:modeling_9:pCube112
+    400570: pCube175
+    400572: pCube176
+    400574: pCube177
+    400576: pCube178
+    400578: pCube179
+    400580: pCube180
+    400582: pCube181
+    400584: pCube182
+    400586: pCube183
+    400588: pCube184
+    400590: pCube185
+    400592: pCube186
+    400594: pCube187
+    400596: pCube188
+    400598: pCube189
+    400600: pCube190
+    400602: pCube191
+    400604: pCube192
+    400606: pCube193
+    400608: pCube194
+    400610: pCube195
+    400612: pCube196
+    400614: pCube197
+    400616: pCube198
+    400618: pCube199
+    400620: pCube200
+    400622: pCube201
+    400624: pCube202
+    400626: pCube203
+    400628: polySurface330
+    400630: polySurface331
+    400632: polySurface332
+    400634: polySurface333
+    400636: polySurface334
+    400638: waist_frame_R1
+    2000000: back
+    2000002: back_bottom
+    2000004: back_left
+    2000006: bottom
+    2000008: left
     2300000: pCube1
     2300002: pCube10
     2300004: pCube11
@@ -795,6 +910,55 @@ ModelImporter:
     2300514: polySurface322
     2300516: pPipe1
     2300518: pPipe2
+    2300520: arm_frame_R48
+    2300522: arm_frame_R49
+    2300524: arm_frame_R50
+    2300526: arm_frame_R51
+    2300528: arm_frame_R52
+    2300530: arm_frame_R53
+    2300532: arm_frame_R54
+    2300534: arm_frame_R55
+    2300536: arm_gun_L1
+    2300538: arm_gunA_L1
+    2300540: beamsaber_L1
+    2300542: leg_frame_R5
+    2300544: modeling_9:modeling_9:back_frame_R1
+    2300546: modeling_9:modeling_9:pCube112
+    2300548: pCube175
+    2300550: pCube176
+    2300552: pCube177
+    2300554: pCube178
+    2300556: pCube179
+    2300558: pCube180
+    2300560: pCube181
+    2300562: pCube182
+    2300564: pCube183
+    2300566: pCube184
+    2300568: pCube185
+    2300570: pCube186
+    2300572: pCube187
+    2300574: pCube188
+    2300576: pCube189
+    2300578: pCube190
+    2300580: pCube191
+    2300582: pCube192
+    2300584: pCube193
+    2300586: pCube194
+    2300588: pCube195
+    2300590: pCube196
+    2300592: pCube197
+    2300594: pCube198
+    2300596: pCube199
+    2300598: pCube200
+    2300600: pCube201
+    2300602: pCube202
+    2300604: pCube203
+    2300606: polySurface330
+    2300608: polySurface331
+    2300610: polySurface332
+    2300612: polySurface333
+    2300614: polySurface334
+    2300616: waist_frame_R1
     3300000: pCube1
     3300002: pCube10
     3300004: pCube11
@@ -1055,6 +1219,55 @@ ModelImporter:
     3300514: polySurface322
     3300516: pPipe1
     3300518: pPipe2
+    3300520: arm_frame_R48
+    3300522: arm_frame_R49
+    3300524: arm_frame_R50
+    3300526: arm_frame_R51
+    3300528: arm_frame_R52
+    3300530: arm_frame_R53
+    3300532: arm_frame_R54
+    3300534: arm_frame_R55
+    3300536: arm_gun_L1
+    3300538: arm_gunA_L1
+    3300540: beamsaber_L1
+    3300542: leg_frame_R5
+    3300544: modeling_9:modeling_9:back_frame_R1
+    3300546: modeling_9:modeling_9:pCube112
+    3300548: pCube175
+    3300550: pCube176
+    3300552: pCube177
+    3300554: pCube178
+    3300556: pCube179
+    3300558: pCube180
+    3300560: pCube181
+    3300562: pCube182
+    3300564: pCube183
+    3300566: pCube184
+    3300568: pCube185
+    3300570: pCube186
+    3300572: pCube187
+    3300574: pCube188
+    3300576: pCube189
+    3300578: pCube190
+    3300580: pCube191
+    3300582: pCube192
+    3300584: pCube193
+    3300586: pCube194
+    3300588: pCube195
+    3300590: pCube196
+    3300592: pCube197
+    3300594: pCube198
+    3300596: pCube199
+    3300598: pCube200
+    3300600: pCube201
+    3300602: pCube202
+    3300604: pCube203
+    3300606: polySurface330
+    3300608: polySurface331
+    3300610: polySurface332
+    3300612: polySurface333
+    3300614: polySurface334
+    3300616: waist_frame_R1
     4300000: pCube54
     4300002: pCube55
     4300004: pCube53
@@ -1315,6 +1528,55 @@ ModelImporter:
     4300514: modeling_9:polySurface307
     4300516: pPipe2
     4300518: pCube140
+    4300520: modeling_9:modeling_9:back_frame_R1
+    4300522: modeling_9:modeling_9:pCube112
+    4300524: pCube177
+    4300526: pCube178
+    4300528: leg_frame_R5
+    4300530: polySurface331
+    4300532: polySurface332
+    4300534: pCube179
+    4300536: pCube180
+    4300538: waist_frame_R1
+    4300540: polySurface330
+    4300542: arm_gun_L1
+    4300544: arm_gunA_L1
+    4300546: pCube181
+    4300548: pCube182
+    4300550: arm_frame_R48
+    4300552: arm_frame_R49
+    4300554: arm_frame_R50
+    4300556: arm_frame_R51
+    4300558: arm_frame_R52
+    4300560: arm_frame_R53
+    4300562: arm_frame_R54
+    4300564: arm_frame_R55
+    4300566: pCube183
+    4300568: pCube184
+    4300570: pCube185
+    4300572: pCube186
+    4300574: pCube187
+    4300576: pCube188
+    4300578: pCube189
+    4300580: pCube190
+    4300582: pCube191
+    4300584: pCube192
+    4300586: pCube193
+    4300588: pCube194
+    4300590: pCube195
+    4300592: pCube196
+    4300594: pCube197
+    4300596: pCube198
+    4300598: pCube199
+    4300600: beamsaber_L1
+    4300602: pCube200
+    4300604: pCube176
+    4300606: pCube175
+    4300608: pCube201
+    4300610: polySurface333
+    4300612: polySurface334
+    4300614: pCube202
+    4300616: pCube203
     9500000: //RootNode
   externalObjects:
   - first:
@@ -1337,6 +1599,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: _p_white
     second: {fileID: 2100000, guid: bcb0eb837251eaa4f858fe52809f7391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back1
+    second: {fileID: 2100000, guid: f216bea86a017cd4d900191046c81147, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1367,6 +1634,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: lightgrey
     second: {fileID: 2100000, guid: 59ef6b74ca89c6648a3eb5c7cbd76cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: upper
+    second: {fileID: 2100000, guid: 27cb8def8ac5c3a4783addaa52cc1803, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
