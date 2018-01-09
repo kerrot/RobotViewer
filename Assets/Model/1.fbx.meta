@@ -3,7 +3,7 @@ guid: 8f354fa34292f4b4fb548a2aeb637777
 timeCreated: 1508832087
 licenseType: Pro
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
     100002: arm
@@ -325,6 +325,15 @@ ModelImporter:
     100634: polySurface333
     100636: polySurface334
     100638: waist_frame_R1
+    100640: back_frame_R6
+    100642: effect1
+    100644: effect2
+    100646: effect3
+    100648: effect4
+    100650: pCube204
+    100652: polySurface335
+    100654: polySurface336
+    100656: polySurface337
     400000: //RootNode
     400002: arm
     400004: arm 1
@@ -645,6 +654,15 @@ ModelImporter:
     400634: polySurface333
     400636: polySurface334
     400638: waist_frame_R1
+    400640: back_frame_R6
+    400642: effect1
+    400644: effect2
+    400646: effect3
+    400648: effect4
+    400650: pCube204
+    400652: polySurface335
+    400654: polySurface336
+    400656: polySurface337
     2000000: back
     2000002: back_bottom
     2000004: back_left
@@ -959,6 +977,15 @@ ModelImporter:
     2300612: polySurface333
     2300614: polySurface334
     2300616: waist_frame_R1
+    2300618: back_frame_R6
+    2300620: effect1
+    2300622: effect2
+    2300624: effect3
+    2300626: effect4
+    2300628: pCube204
+    2300630: polySurface335
+    2300632: polySurface336
+    2300634: polySurface337
     3300000: pCube1
     3300002: pCube10
     3300004: pCube11
@@ -1268,6 +1295,15 @@ ModelImporter:
     3300612: polySurface333
     3300614: polySurface334
     3300616: waist_frame_R1
+    3300618: back_frame_R6
+    3300620: effect1
+    3300622: effect2
+    3300624: effect3
+    3300626: effect4
+    3300628: pCube204
+    3300630: polySurface335
+    3300632: polySurface336
+    3300634: polySurface337
     4300000: pCube54
     4300002: pCube55
     4300004: pCube53
@@ -1577,78 +1613,20 @@ ModelImporter:
     4300612: polySurface334
     4300614: pCube202
     4300616: pCube203
+    4300618: effect2
+    4300620: effect1
+    4300622: back_frame_R6
+    4300624: effect4
+    4300626: effect3
+    4300628: polySurface335
+    4300630: polySurface336
+    4300632: pCube204
+    4300634: polySurface337
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _p_darkgrey
-    second: {fileID: 2100000, guid: 9aaf4682f5359684ba47f4bea27570e1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _p_light
-    second: {fileID: 2100000, guid: 810e38426c822e1478d6bdca7b801a96, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _p_lightgrey
-    second: {fileID: 2100000, guid: 26274ae228472f548940d6cf18c8d872, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _p_white
-    second: {fileID: 2100000, guid: bcb0eb837251eaa4f858fe52809f7391, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: back1
-    second: {fileID: 2100000, guid: f216bea86a017cd4d900191046c81147, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: darkgrey
-    second: {fileID: 2100000, guid: 91abd94837430d046ac27f38c74733d0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gray
-    second: {fileID: 2100000, guid: 4a5de2c8934eac34c8b9ae779a5a43f8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: c64827a445d376a419b76bf31dc8287c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert5
-    second: {fileID: 2100000, guid: 71b8c4c048105d34f9298192630912c1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: light
-    second: {fileID: 2100000, guid: 8ec35a570ec4fb8439b7d5e59b7aa3cb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lightgrey
-    second: {fileID: 2100000, guid: 59ef6b74ca89c6648a3eb5c7cbd76cfa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: upper
-    second: {fileID: 2100000, guid: 27cb8def8ac5c3a4783addaa52cc1803, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: white
-    second: {fileID: 2100000, guid: c3666e733b8114c42b68c4821ce2bc40, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -1661,14 +1639,12 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -1676,10 +1652,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -1695,7 +1668,6 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
