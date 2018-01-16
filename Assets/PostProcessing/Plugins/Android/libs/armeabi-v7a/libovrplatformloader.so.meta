@@ -10,16 +10,9 @@ PluginImporter:
   platformData:
     data:
       first:
-        Android: Android
-      second:
-        enabled: 1
-        settings:
-          CPU: ARMv7
-    data:
-      first:
         Any: 
       second:
-        enabled: 0
+        enabled: 1
         settings: {}
     data:
       first:
