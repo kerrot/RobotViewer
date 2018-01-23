@@ -6,7 +6,7 @@ public class Teleproter : MonoBehaviour {
 
 	[SerializeField] private float viewRange = 1f;
 	
-	DroneControl current = null;
+	RayCastBase current = null;
 
 	// Update is called once per frame
 	void Update () 
@@ -15,11 +15,11 @@ public class Teleproter : MonoBehaviour {
 
         if (Physics.SphereCast(Camera.main.transform.position, viewRange, Camera.main.transform.forward, out hit)) 
 		{
-        	DroneControl drone = hit.collider.gameObject.GetComponent<DroneControl>();
-			if (drone && current == null)
+        	RayCastBase obj = hit.collider.gameObject.GetComponent<RayCastBase>();
+			if (obj && current == null)
 			{
-				drone.OnFocus();
-				current = drone;
+				obj.OnFocus();
+				current = obj;
 			}
         }
 		else if (current != null)
@@ -28,6 +28,9 @@ public class Teleproter : MonoBehaviour {
 			current = null;
 		}
 
-
+		if (current != null && OVRInput.GetDown(OVRInput.RawButton.A))
+		{
+			current.Action(gameObject);
+		}
 	}
 }

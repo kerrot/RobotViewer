@@ -4,20 +4,11 @@ using UnityEngine;
 
 public class DroneControl : RayCastBase {
 
-	public static DroneControl current = null;
+	[SerializeField] protected GameObject CameraObj;
 
-	public override void Action(GameObject cameraBase)
+	protected override void DoAction(GameObject cameraBase)
 	{
-		cameraBase.transform.position = Model.transform.position;
-		cameraBase.transform.rotation = Model.transform.rotation;
-
-		if (current)
-		{
-			current.Model.SetActive(true);
-		}
-
-		current = this;
-
-		Model.SetActive(false);
+		cameraBase.transform.position = CameraObj.transform.position - Camera.main.transform.localPosition;
+		cameraBase.transform.rotation = CameraObj.transform.rotation;
 	}
 }

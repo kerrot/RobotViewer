@@ -8,6 +8,8 @@ public abstract class RayCastBase : MonoBehaviour {
 	[SerializeField] protected GameObject Model;
 	[SerializeField] protected float scaleSize = 1.5f;
 
+	protected static RayCastBase Current = null;
+
 	public void OnFocus()
 	{
 		Hit.SetActive(true);
@@ -20,5 +22,21 @@ public abstract class RayCastBase : MonoBehaviour {
 		Model.transform.localScale = Vector3.one;
 	}
 
-	public abstract void Action(GameObject cameraBase);
+	public void Action(GameObject cameraBase)
+	{
+		if (cameraBase != null)
+		{
+			if (Current != null)
+			{
+				Current.gameObject.SetActive(true);
+			}
+
+			gameObject.SetActive(false);
+			Current = this;
+
+			DoAction(cameraBase);
+		}
+	}
+
+	protected abstract void DoAction(GameObject cameraBase);
 }

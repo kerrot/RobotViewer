@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BillBoard : MonoBehaviour {
-	
-	[SerializeField] private Vector3 shift;
-
 	// Update is called once per frame
 	void Update () {
-		transform.rotation = Camera.main.transform.rotation * Quaternion.Euler(shift);
+		transform.LookAt(Camera.main.transform);
 	}
 }
