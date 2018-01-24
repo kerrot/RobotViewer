@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Teleproter : MonoBehaviour {
-
 	[SerializeField] private float viewRange = 1f;
 	
 	RayCastBase current = null;
@@ -28,7 +27,8 @@ public class Teleproter : MonoBehaviour {
 			current = null;
 		}
 
-		if (current != null && OVRInput.GetDown(OVRInput.RawButton.A))
+		if (current != null && 
+            (OVRInput.GetDown(OVRInput.RawButton.A) || Input.GetKeyDown(KeyCode.Space)))
 		{
 			current.Action(gameObject);
 		}
