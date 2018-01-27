@@ -9,6 +9,7 @@ public abstract class RayCastBase : MonoBehaviour {
 	[SerializeField] protected float scaleSize = 1.5f;
 
 	protected static RayCastBase Current = null;
+	public static RayCastBase GetCurrent() { return Current; }
 
 	public void OnFocus()
 	{

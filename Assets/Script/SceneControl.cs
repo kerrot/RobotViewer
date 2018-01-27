@@ -7,13 +7,6 @@ public class SceneControl : RayCastBase {
     [SerializeField] private GameObject targetScene;
     [SerializeField] private Material skybox;
 
-    private MainManager Main;
-
-    private void Start()
-    {
-        Main = GameObject.FindObjectOfType<MainManager>();
-    }
-
     protected override void DoAction(GameObject cameraBase)
     {
         selfScene.SetActive(false);
@@ -21,6 +14,10 @@ public class SceneControl : RayCastBase {
 
         RenderSettings.skybox = skybox;
 
-        Main.ChangeToNext();
-    }
+		MainManager Main = GameObject.FindObjectOfType<MainManager>( );
+		if ( Main ) {
+			Main.Refind( );
+			Main.ChangeToNext( cameraBase );
+		}
+	}
 }

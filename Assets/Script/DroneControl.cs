@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DroneControl : RayCastBase {
 
-	[SerializeField] protected GameObject CameraObj;
+	[SerializeField] protected VRTeleportHelper CameraObj;
 
 	protected override void DoAction(GameObject cameraBase)
 	{
-		cameraBase.transform.position = CameraObj.transform.position - Camera.main.transform.localPosition;
+		cameraBase.transform.position = CameraObj.GetTeleportPosition();
 		cameraBase.transform.rotation = CameraObj.transform.rotation;
 	}
 }
