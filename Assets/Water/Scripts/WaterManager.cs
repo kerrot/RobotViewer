@@ -18,6 +18,11 @@ public class WaterManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        
+    }
+
+    private void OnEnable()
+    {
         WaterSurface.Instance.init(water_surface_input_material_, water_surface_distortion_, water_surface_line_render_);
         WaterSurfaceRenderer.Instance.init(traceCamera.transform);
         WaterSplash.Instance.init(water_splash_material_, WaterSurfaceRenderer.Instance.getReflectionTexture());

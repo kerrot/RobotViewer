@@ -15,9 +15,14 @@ public class SceneControl : RayCastBase {
         RenderSettings.skybox = skybox;
 
 		MainManager Main = GameObject.FindObjectOfType<MainManager>( );
-		if ( Main ) {
-			Main.Refind( );
-			Main.ChangeToNext( cameraBase );
+        if (Main) {
+            Main.Refind();
+
+            Teleproter tele = GameObject.FindObjectOfType<Teleproter>();
+            if (tele)
+            {
+                Main.ChangeToNext(tele.gameObject);
+            }
 		}
 	}
 }
