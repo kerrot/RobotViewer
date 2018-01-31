@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.34744054, g: 0.4146754, b: 0.4977309, a: 1}
+  m_IndirectSpecularColor: {r: 0.3422335, g: 0.4085, b: 0.4898824, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1193,52 +1193,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
---- !u!1001 &366768596
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -209.95221
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 293.02222
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -200.33546
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: a9a7bf42535064545a58bffed6154e96, type: 2}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 8e276332e7d10184d912e3074ac58b23, type: 3}
-  m_IsPrefabParent: 0
 --- !u!1 &391639882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2304,7 +2258,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &695886341
 GameObject:
@@ -2338,7 +2292,7 @@ Transform:
   - {fileID: 744382659}
   - {fileID: 722893622}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &700912873
 GameObject:
@@ -3745,6 +3699,10 @@ Prefab:
       propertyPath: m_HDR
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
+      propertyPath: far clip plane
+      value: 30000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
   m_IsPrefabParent: 0
@@ -3781,7 +3739,7 @@ Transform:
   - {fileID: 2061970304}
   - {fileID: 878589965}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1309110695
 MonoBehaviour:
@@ -4939,7 +4897,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.74
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -5832,7 +5790,7 @@ Transform:
   - {fileID: 411453703}
   - {fileID: 635123698}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2112506023
 GameObject:
