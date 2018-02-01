@@ -21,7 +21,7 @@ public class SceneControl : RayCastBase {
             Teleproter tele = GameObject.FindObjectOfType<Teleproter>();
             if (tele)
             {
-                Main.ChangeToNext(tele.gameObject);
+                Main.ChangeToNext(tele.gameObject, false);
             }
 		}
 	}

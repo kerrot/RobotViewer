@@ -11,7 +11,10 @@ public abstract class RayCastBase : MonoBehaviour {
 	protected static RayCastBase Current = null;
 	public static RayCastBase GetCurrent() { return Current; }
 
-	public void OnFocus()
+    private bool acting = false;
+    private FadeInOutManager fad;
+
+    public void OnFocus()
 	{
 		Hit.SetActive(true);
 		Model.transform.localScale = Vector3.one * scaleSize;
@@ -23,21 +26,70 @@ public abstract class RayCastBase : MonoBehaviour {
 		Model.transform.localScale = Vector3.one;
 	}
 
-	public void Action(GameObject cameraBase)
-	{
-		if (cameraBase != null)
-		{
-			if (Current != null)
-			{
-				Current.gameObject.SetActive(true);
-			}
+    public void Action(GameObject cameraBase)
+    {
+        if (acting)
+        {
+            return;
+        }
 
-			gameObject.SetActive(false);
-			Current = this;
+        fad = GameObject.FindObjectOfType<FadeInOutManager>();
+        if (fad)
+        {
+            if (fad.FadeOut())
+            {
+                fad.OnFadeOutEnd += FadeEndAction;
 
-			DoAction(cameraBase);
-		}
-	}
+                SEManager se = GameObject.FindObjectOfType<SEManager>();
+                if (se)
+                {
+                    se.PlayBtnSE();
+                }
+
+                acting = true;
+            }
+        }
+    }
+
+    public void ActionWithoutFade(GameObject cameraBase)
+    {
+        if (cameraBase != null)
+        {
+            if (Current != null)
+            {
+                Current.gameObject.SetActive(true);
+            }
+
+            gameObject.SetActive(false);
+            Current = this;
+
+            DoAction(cameraBase.gameObject);
+        }
+    }
+
+    private void FadeEndAction()
+    {
+        if (fad)
+        {
+            if (fad.FadeOut())
+            {
+                fad.OnFadeOutEnd -= FadeEndAction;
+            }
+        }
+
+        Teleproter cameraBase = GameObject.FindObjectOfType<Teleproter>();
+        if (cameraBase)
+        {
+            ActionWithoutFade(cameraBase.gameObject);
+        }
+
+        if (fad)
+        {
+            fad.FadeIn();
+        }
+
+        acting = false;
+    }
 
 	protected abstract void DoAction(GameObject cameraBase);
 }

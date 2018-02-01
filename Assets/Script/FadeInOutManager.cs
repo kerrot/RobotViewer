@@ -10,7 +10,7 @@ public class FadeInOutManager : MonoBehaviour {
 	public FadeEvent OnFadeOutEnd;
 
 	Animator anim;
-	bool fading = false;
+	bool fading = true;
 	bool fadeState = false;
 
 	private void Awake( ) {
@@ -57,7 +57,8 @@ public class FadeInOutManager : MonoBehaviour {
 	{
 		if (!fading && !fadeState)
 		{
-			fading = true;
+            anim.SetTrigger("FadeOut");
+            fading = true;
 			fadeState = true;
 
 			return true;
