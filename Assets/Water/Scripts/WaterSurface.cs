@@ -16,7 +16,7 @@ public class WaterSurface {
 	private const int VERTICES_NUM = X_NUM*Y_NUM;
 	private const int RECT_NUM = (X_NUM - 1) * (Y_NUM - 1);
 	private const int TRIS_NUM = RECT_NUM * 2 * 3;
-	private const float SCALE = 100f;
+	private const float SCALE = 150f;
 
     private Vector3[] vertices_list_;
 

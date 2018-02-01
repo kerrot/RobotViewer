@@ -13,7 +13,7 @@ public class Follower : MonoBehaviour {
 			tele = GameObject.FindObjectOfType<Teleproter>( );
 			if (tele)
 			{
-				Main.ChangeToNext( tele.gameObject );
+				Main.ChangeToNext( tele.gameObject , false);
 			}
 		}
 	}

@@ -1621,7 +1621,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f354fa34292f4b4fb548a2aeb637777, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f354fa34292f4b4fb548a2aeb637777, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3731,9 +3731,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveTime: 0.12
-  waveSize: 0.2
-  waveRange: 0.66
-  flySpeed: 0.1
+  waveSize: 0.63
+  waveRange: 0.59
+  flySpeed: 0.2
 --- !u!1 &675893647
 GameObject:
   m_ObjectHideFlags: 0
