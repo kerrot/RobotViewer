@@ -23,7 +23,7 @@ public class MainManager : MonoBehaviour {
 
     public void ChangeToNext(GameObject cameraBase, bool fade = true)
     {
-		int index = 0;
+		int index = Random.Range(0, drones.Length);
 		DroneControl drone = RayCastBase.GetCurrent() as DroneControl;
 		if (drone)
 		{
